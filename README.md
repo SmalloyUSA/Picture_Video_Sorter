@@ -2,7 +2,9 @@
 
 The Python script is designed to organize files within a selected directory, particularly focusing on image files. Here's a summary of its key functionalities:
 
-WARNING!!! This script will delete sub-dictories after removing pictures videos and files from them and sorting them by month and year into new sub directoires. If uou want to keep your Directory sturcutre you will need to use the GUI to drill down into your Picture/Video Dictories and sort each indiviual sub directory. This script is intended to help sort directoies with no structure. Olny supports MP4 Videos but can be easyliy modified. This script does not delete any Data!!!
+WARNING!!! This script will delete sub-dictories after removing pictures videos and files from them and sorting them by month and year into new sub directoires. If uou want to keep your Directory sturcutre you will need to use the GUI to drill down into your Picture/Video Dictories and sort each indiviual sub directory. This script is intended to help sort directoies with no structure. Olny supports MP4 Videos but can be easyliy modified. This script does not delete any Data!!! 
+
+There is also a PowerShell Version of this Script available.
 
 1. Directory Selection: When executed, the script opens a file dialog window allowing the user to select a directory. This directory is assumed to contain various files, including images, that the user wishes to organize.
 2. Review Directory Creation: The script creates a subdirectory named "Pictures and Files Review" within the selected directory. This subdirectory is intended to hold any files that require further review or manual sorting, particularly in cases where the automatic sorting process encounters issues.
