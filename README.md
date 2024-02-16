@@ -4,6 +4,8 @@ The Python script is designed to organize files within a selected directory, par
 
 WARNING!!! The Powershell script will delete sub-dictories after removing pictures videos and files from them and sorting them by month and year into new sub directoires during testing. The Python script from testing leaves the old subdierctoires. Use catuion when using this script "ONLY USE ON BACKED UP FILES" If you use PS Script and want to keep your Directory sturcutre you will need to use the GUI to drill down into your Picture/Video sub-dictories and sort each indiviual sub directory. This script is intended to help sort directoies with no structure. Olny supports MP4 Videos but can be easyliy modified to allow more formats. This script may or may not DELETE DATA, Testing shows index.bin files and subdiecrtories do get deleted when PS script runs. Both Scripts delete the index bin file. Current supported files for sorting are jpg|jpeg|png|gif|bmp|mp4|heic.
 
+Use PowerShell IDE or pyCharm to run srcipts. 
+
 There is also a PowerShell Version of this Script available.
 
 1. Directory Selection: When executed, the script opens a file dialog window allowing the user to select a directory. This directory is assumed to contain various files, including images, that the user wishes to organize.
